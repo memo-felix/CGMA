@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:get_monto_x_anio>
+         <!--Optional:-->
+         <tem:token>?</tem:token>
+         <!--Optional:-->
+         <tem:anio>?</tem:anio>
+      </tem:get_monto_x_anio>
+   </soapenv:Body>
+</soapenv:Envelope>

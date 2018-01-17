@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:get_obras_x_adjudicacion>
+         <!--Optional:-->
+         <tem:token>?</tem:token>
+         <!--Optional:-->
+         <tem:anio>?</tem:anio>
+      </tem:get_obras_x_adjudicacion>
+   </soapenv:Body>
+</soapenv:Envelope>

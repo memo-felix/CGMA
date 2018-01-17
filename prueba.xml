@@ -1,0 +1,32 @@
+<!--<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:get_obras_app>
+         Optional:
+         <tem:token>de54953c71a57e47f791adea42922468</tem:token>
+         Optional:
+         <tem:anio>2017</tem:anio>
+      </tem:get_obras_app>
+   </soapenv:Body>
+</soapenv:Envelope>-->
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:get_obras_app>
+         <tem:token>de54953c71a57e47f791adea42922468</tem:token>
+         <tem:anio>2017</tem:anio>
+      </tem:get_obras_app>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+<!--"<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:tem=\"http://tempuri.org/\">" +
+                "<soapenv:Header/>" +
+                "<soapenv:Body>" +
+                "<tem:get_obras_app>" +
+                "<tem:token>\(self.token)</tem:token>" +
+                "<tem:anio>\(self.anio)</tem:anio>" +
+                "</tem:get_obras_app>" +
+                "</soapenv:Body>" +
+            "</soapenv:Envelope>"-->

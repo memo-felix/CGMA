@@ -1,0 +1,5 @@
+
+
+<!--Desarrollo-->
+
+curl --header "Content-Type: text/xml;charset=UTF-8" --header "SOAPAction: get_obras_app" --data @get_obras_app.xml action="http://10.10.200.10/wcf_app_obras/WSAppObras.svc?wsdl"
